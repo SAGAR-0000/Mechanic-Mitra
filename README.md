@@ -9,7 +9,7 @@
 
 ---
 
-## 🏆 Competition Highlights
+##  Competition Highlights
 
 - ✅ **Multi-Agent Orchestration**: 4 specialized autonomous agents working collaboratively
 - ✅ **Agent Memory & Learning**: Pattern recognition from historical diagnostics
@@ -19,7 +19,7 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The automotive service industry faces critical challenges:
 - **70% of diagnostic time** spent on manual inspections
@@ -31,7 +31,7 @@ The automotive service industry faces critical challenges:
 
 ---
 
-## 💡 Solution: Multi-Agent AI Diagnostic System
+##  Solution: Multi-Agent AI Diagnostic System
 
 Mechanic-Mitra deploys a team of specialized AI agents that collaborate to provide comprehensive vehicle diagnostics in minutes, not hours.
 
@@ -39,16 +39,16 @@ Mechanic-Mitra deploys a team of specialized AI agents that collaborate to provi
 
 ```mermaid
 graph TD
-    A[User Input:<br/>Image + Audio] --> B[🎯 ChiefMechanicAgent<br/>Orchestrator]
-    B -->|Delegates| C[🔍 VisualAnalysisAgent<br/>Expert Inspector]
-    B -->|Delegates| D[🎵 AudioAnalysisAgent<br/>Acoustic Specialist]
-    C -->|Visual Findings| E[🧠 Synthesis Engine]
+    A[User Input:<br/>Image + Audio] --> B[ ChiefMechanicAgent<br/>Orchestrator]
+    B -->|Delegates| C[ VisualAnalysisAgent<br/>Expert Inspector]
+    B -->|Delegates| D[ AudioAnalysisAgent<br/>Acoustic Specialist]
+    C -->|Visual Findings| E[ Synthesis Engine]
     D -->|Audio Findings| E
     E --> B
-    B -->|Required Parts| F[💰 PriceAgent<br/>Cost Estimator]
+    B -->|Required Parts| F[ PriceAgent<br/>Cost Estimator]
     F --> B
-    B -->|Stores Results| G[📚 DiagnosisMemory<br/>Learning System]
-    B --> H[📄 Professional Report<br/>PDF + HTML]
+    B -->|Stores Results| G[ DiagnosisMemory<br/>Learning System]
+    B --> H[ Professional Report<br/>PDF + HTML]
     
     style B fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
     style C fill:#f093fb,stroke:#f5576c,stroke-width:2px,color:#fff
@@ -59,7 +59,7 @@ graph TD
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Multi-Modal Analysis
 - **Visual Inspection**: Detects rust, leaks, wear patterns, structural damage
@@ -91,27 +91,7 @@ graph TD
 
 ---
 
-## 📊 Business Impact
-
-### Projected Benefits
-
-| Metric | Traditional Diagnostic | Mechanic-Mitra (Projected) | Benefit |
-|--------|----------------------|-------|-------------|
-| **Diagnostic Time** | 45-90 minutes | 3-5 minutes | **Significant time savings** |
-| **Consistency** | Variable (human factor) | Standardized (AI+Memory) | **Reduced error rate** |
-| **Documentation** | Manual/Paper | Digital PDF + History | **Better record keeping** |
-| **Scalability** | Limited by staff count | High (software automated) | **Instant scaling** |
-
-### ROI Model
-
-**For a mid-size auto shop processing 50 diagnoses/week, the system aims to deliver:**
-- **Labor Optimization**: Freeing up senior mechanics for complex repairs rather than initial triage.
-- **Revenue Growth**: Faster turnaround times leading to higher service volume.
-- **Knowledge Retention**: Capturing diagnosis patterns in the system memory to train junior staff.
-
----
-
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### Technology Stack
 - **AI Model**: Google Gemini 2.5-flash (latest stable multi-modal model)
@@ -144,7 +124,7 @@ graph TD
 
 ---
 
-## 📸 Demo & Results
+##  Demo & Results
 
 ### Sample Input
 - **Vehicle**: Classic car engine bay image
@@ -175,36 +155,6 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Usage
-
-### Quick Start (Kaggle)
-
-```bash
-# Step 1: Install dependencies
-!pip install google-generativeai pillow fpdf2 python-dotenv ipywidgets
-
-# Step 2: Set API key  
-# Add GOOGLE_API_KEY to Kaggle Secrets
-
-# Step 3: Run all cells!
-```
-
-### Local Setup
-
-```bash
-# Clone repository
-git clone https://github.com/your-username/mechanic-mitra.git
-cd mechanic-mitra
-
-# Install dependencies
-pip install google-generativeai pillow fpdf2 python-dotenv ipywidgets
-
-# Set environment variable
-echo "GOOGLE_API_KEY=your_key_here" > .env
-
-# Run notebook
-jupyter notebook mechanic_mitra.ipynb
-```
 
 ### Important Notes
 - **Model**: Uses Gemini 2.5-flash (stable, free-tier compatible)
@@ -213,7 +163,7 @@ jupyter notebook mechanic_mitra.ipynb
 
 ---
 
-## 🎓 Lessons Learned
+##  Lessons Learned
 
 ### What Worked Well
 1. **Multi-agent design**: Clear separation of concerns improved reliability
@@ -235,20 +185,7 @@ jupyter notebook mechanic_mitra.ipynb
 
 ---
 
-## 📈 Competition Submission Checklist
-
-- [x] Multi-agent system with specialized agents
-- [x] Agent memory and learning capabilities
-- [x] Tool integration (price estimation)
-- [x] Autonomous workflow execution
-- [x] Production-ready code quality
-- [x] Comprehensive documentation
-- [x] Real enterprise value demonstrated
-- [x] Innovation beyond course materials
-
----
-
-## 👥 Team
+##  Team
 
 **Solo Developer**: Built as capstone project for Kaggle AI Agents Intensive Course
 
@@ -256,13 +193,13 @@ jupyter notebook mechanic_mitra.ipynb
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - Free for educational and commercial use
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google DeepMind** for Gemini API and AI Agents course
 - **Kaggle** for platform and competition hosting
